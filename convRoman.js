@@ -20,10 +20,10 @@ return romanNumerals;
 
 const romanConvert = () => {
  if (Number.isNaN(parseInt(numberInput.value))) {
-  result.innerHTML = '<p class="invalid">Por favor digite um número válido. </p>'} else if(numberInput.value < 1) {
-  result.innerHTML = '<p class="invalid">Por favor digite um número maior ou igual a 1. </p>'
+  result.innerHTML = '<p class="invalid">Please enter a valid number. </p>'} else if(numberInput.value < 1) {
+  result.innerHTML = '<p class="invalid">Please enter a number greater than or equal to 1. </p>'
   }  else if (numberInput.value > 3999) {
-  result.innerHTML = '<p class="invalid">Por favor digite um número menor ou igual a 3999.</p>'
+  result.innerHTML = '<p class="invalid">Please enter a number less than or equal to 3999.</p>'
   } else {
   result.innerHTML = `<p class="invalid">${intToRomanNumerals(numberInput.value)}</p>`;
   }
