@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caixa Registradora</title>
+    <link rel="stylesheet" href="./cashRegister.css" />
+  </head>
+  <body>
+    <main>
+    <h1>Caixa Registradora</h1>
+
+    <div class="costumer">
+      <p class="cash-text">Valor recebido do Cliente:</p>
+      <input id="cash">
+      <button id="purchase-btn">Comprar</button>
+    </div>
+
+    <div class="change-due">
+      <p id="change-due"></p>
+    </div>
+
+    <div class="register">
+      <div class="total">
+        <div class="price"><span id="price"></span>
+        </div>
+      </div>
+      <div class="changes">
+        <div class="cid" id="cid"></div>
+      </div>
+    </div>
+      </main>
+    <script src="cashRegister.js"></script>
+  </body>
+</html>
